@@ -1,2 +1,2 @@
 # R5T.Z0015
-Useful output file paths.
+Useful output directory and file paths.
