@@ -11,7 +11,8 @@ namespace R5T.Z0015
         public string OutputHtmlFilePath => @"C:\Temp\Output.html";
         public string OutputJsonFilePath => @"C:\Temp\Output.json";
 		public string OutputTextFilePath => @"C:\Temp\Output.txt";
-		public string RawOutputJsonFilePath => @"C:\Temp\Output-Raw.json";
+        public string OutputXmlFilePath => @"C:\Temp\Output.xml";
+        public string RawOutputJsonFilePath => @"C:\Temp\Output-Raw.json";
 		public string ResultOutputJsonFilePath => @"C:\Temp\Result.json";
 	}
 }
