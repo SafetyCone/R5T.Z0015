@@ -17,6 +17,7 @@ namespace R5T.Z0015
         public string OutputJsonFilePath => @"C:\Temp\Output.json";
 		public string OutputTextFilePath => @"C:\Temp\Output.txt";
         public string OutputTextFilePath_Secondary => @"C:\Temp\Output2.txt";
+        public string OutputTextFilePath_Tertiary => @"C:\Temp\Output3.txt";
         public string OutputXmlFilePath => @"C:\Temp\Output.xml";
         public string RawOutputJsonFilePath => @"C:\Temp\Output-Raw.json";
 		public string ResultOutputJsonFilePath => @"C:\Temp\Result.json";
