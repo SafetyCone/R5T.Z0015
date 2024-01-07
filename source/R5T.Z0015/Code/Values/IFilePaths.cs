@@ -15,7 +15,11 @@ namespace R5T.Z0015
 		public string OutputDataFilePath => @"C:\Temp\Output.dat";
         public string OutputHtmlFilePath => @"C:\Temp\Output.html";
         public string OutputJsonFilePath => @"C:\Temp\Output.json";
-		public string OutputTextFilePath => @"C:\Temp\Output.txt";
+
+        /// <summary>
+        /// <para><value>C:\Temp\Output.txt</value></para>
+        /// </summary>
+        public string OutputTextFilePath => @"C:\Temp\Output.txt";
         public string OutputTextFilePath_Secondary => @"C:\Temp\Output2.txt";
         public string OutputTextFilePath_Tertiary => @"C:\Temp\Output3.txt";
         public string OutputXmlFilePath => @"C:\Temp\Output.xml";
