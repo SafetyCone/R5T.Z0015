@@ -9,7 +9,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependenc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.T0131", "..\..\R5T.T0131\source\R5T.T0131\R5T.T0131.csproj", "{325B12CD-81F8-418A-9856-E43FC984D75F}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.T0143", "..\..\R5T.T0143\source\R5T.T0143\R5T.T0143.csproj", "{7F499ED5-F8AF-41B0-A862-E73C62C82491}"
+EndProject
 Global
+	GlobalSection(NestedProjects) = preSolution
+		{325B12CD-81F8-418A-9856-E43FC984D75F} = {2B56D90D-8D7D-4EFB-A86F-BF6D29ABD53C}
+		{7F499ED5-F8AF-41B0-A862-E73C62C82491} = {2B56D90D-8D7D-4EFB-A86F-BF6D29ABD53C}
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -23,12 +29,13 @@ Global
 		{325B12CD-81F8-418A-9856-E43FC984D75F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{325B12CD-81F8-418A-9856-E43FC984D75F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{325B12CD-81F8-418A-9856-E43FC984D75F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F499ED5-F8AF-41B0-A862-E73C62C82491}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F499ED5-F8AF-41B0-A862-E73C62C82491}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F499ED5-F8AF-41B0-A862-E73C62C82491}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F499ED5-F8AF-41B0-A862-E73C62C82491}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{325B12CD-81F8-418A-9856-E43FC984D75F} = {2B56D90D-8D7D-4EFB-A86F-BF6D29ABD53C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1013B0CB-ABDD-4487-A762-5F3AF6B67F4E}
